@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NextGen Suite" parallel="false">
+	
+	<parameter name="project" value="MercuryTour"/>
+ 	
+ 	<test name="SuiteSetup"> 
+    	<classes> 
+        	<class name="webdriver.Webdriver"/>	
+        </classes>  
+	</test>
+
+	<test name="FlightBookingTest"> 
+    	<classes> 
+        	<class name="Test.MercuryTours"/>	
+        </classes>  
+	</test>
+
+</suite>

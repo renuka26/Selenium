@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NextGen Suite]">
+  <parameter name="project" value="MercuryTour"/>
+  <test name="SuiteSetup(failed)">
+    <classes>
+      <class name="webdriver.Webdriver">
+        <methods>
+          <include name="creatingWebDriverInstance"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="setupSelenium"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- webdriver.Webdriver -->
+    </classes>
+  </test> <!-- SuiteSetup(failed) -->
+</suite> <!-- Failed suite [NextGen Suite] -->

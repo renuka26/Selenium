@@ -1,0 +1,21 @@
+Project Name : MercuryTour
+Environment : newtours.demoaut.com
+Browser Name : Chrome
+Object Name: UserName, Action: Enter Text,  Value: Test
+Object Name: Password, Action: Enter Text,  Value: Test
+Object Name: Sign In Button,  Action : Click
+Object Name: UserName, Action: Enter Text,  Value: Ramasamy
+Object Name: Password, Action: Enter Text,  Value: Ramasamy
+Object Name: Sign In Button,  Action : Click
+Object Name: Flights Button,  Action : Click
+Object Name: Round Trip,  Action : Click
+Object Name: Find Flights Continue Button,  Action : Click
+Object Name: Select Flights Continue Button,  Action : Click
+Object Name: First Name, Action: Enter Text,  Value: Sanjay
+Object Name: Last Name, Action: Enter Text,  Value: Ramasamy
+Object Name: Card Type, Action: Select dropdown  Value: MasterCard
+Object Name: Card Number, Action: Enter Text,  Value: 1234 5678 9012
+Object Name: Exp Month, Action: Select dropdown  Value: 04
+Object Name: Exp Year, Action: Select dropdown  Value: 2010
+Object Name: Secure Purchase Button,  Action : Click
+Object Name: Logout,  Action : Click
